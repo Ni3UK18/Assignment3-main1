@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "dandiwalpb03/c0886622-assignment-4"
+    imagename = "Ni3UK18/c0886578-assignment-4"
     registryCredential = 'docker_registry_key_1'
     dockerImage = ''
   }
@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/Dandiwalpb03/Assignment3', branch: 'main'])
+        git([url: 'https://github.com/Ni3UK18/Assignment3-main1', branch: 'main'])
  
       }
     }
